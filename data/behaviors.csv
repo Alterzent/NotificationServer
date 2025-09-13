@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Client Management","Multiple clients","0","0","1","0","0"
+"","Client Connection","Hello message","0","0","1","0","0"
+"","Validation","Invalid message handling","0","0","1","0","0"
+"","End-to-End","Invalid then disconnect flow","0","0","1","0","0"
+"","Client Connection","Goodbye message","0","0","1","0","0"

@@ -1,0 +1,5 @@
+<AioRpcError of RPC that terminated with:
+	status = StatusCode.INVALID_ARGUMENT
+	details = "Invalid message: Hola"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Invalid message: Hola", grpc_status:3}"
+>

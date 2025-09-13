@@ -1,0 +1,40 @@
+statuses {
+  key: "c9"
+  value: "connected"
+}
+statuses {
+  key: "c8"
+  value: "connected"
+}
+statuses {
+  key: "c7"
+  value: "connected"
+}
+statuses {
+  key: "c6"
+  value: "connected"
+}
+statuses {
+  key: "c5"
+  value: "connected"
+}
+statuses {
+  key: "c4"
+  value: "connected"
+}
+statuses {
+  key: "c3"
+  value: "connected"
+}
+statuses {
+  key: "c2"
+  value: "connected"
+}
+statuses {
+  key: "c1"
+  value: "connected"
+}
+statuses {
+  key: "c0"
+  value: "connected"
+}

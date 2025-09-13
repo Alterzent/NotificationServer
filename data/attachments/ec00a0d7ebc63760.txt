@@ -1,0 +1,1 @@
+WARNING  root:server.py:44 Invalid message from client_4: BadMessage
