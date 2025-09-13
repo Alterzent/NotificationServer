@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package notifications;
+
+service NotificationService {
+  // Send a message "Hello" or "Goodbye" for a client.
+  rpc SendMessage (SendMessageRequest) returns (SendMessageResponse);
+
+  // Get status for all clients or for a specific client_id (empty = all).
+  rpc GetClientStatus (GetClientStatusRequest) returns (GetClientStatusResponse);
+}
+
+message SendMessageRequest {
+  string client_id = 1;
+  string message = 2; // expected: "Hello" or "Goodbye"
+}
+
+message SendMessageResponse {
+  bool ok = 1;
+  string info = 2;
+}
+
+message GetClientStatusRequest {
+  string client_id = 1; // if empty -> all clients
+}
+
+message GetClientStatusResponse {
+  map<string, string> statuses = 1; // client_id -> status
+}
