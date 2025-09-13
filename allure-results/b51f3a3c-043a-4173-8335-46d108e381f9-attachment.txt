@@ -1,0 +1,4 @@
+statuses {
+  key: "client_2"
+  value: "disconnected"
+}
